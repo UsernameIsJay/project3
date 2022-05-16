@@ -1,0 +1,128 @@
+@font-face{
+	font-family: pixel;
+	src: url(Minecraft.ttf);
+}
+
+body{
+	font-family: pixel;
+	background-color: black;
+	color: #39FF14;
+}
+
+.wrap{
+	align-items: center;
+	height: auto;
+	margin-left: 20%;
+	width: 60%;
+	background-image: url(rain_effect.gif);
+	background-size: cover;
+
+}
+
+.title{
+	width: 100%;
+	height: 60px;
+	font-size: 40px;
+	text-align: center;
+	align-items: center;
+	margin-bottom: 50px;
+}
+
+
+.buttons{
+	display: flex;
+	align-content: center;
+	flex-wrap: wrap;
+	text-align: right;
+	width: 100%;
+	height: 10px;
+	align-items: right;
+	margin-bottom: 40px;
+	margin-top: 50px;
+}
+
+a:hover{
+	color: white;
+}
+
+a{
+	text-decoration: none;
+	color: #39FF14;
+	width: 100%;
+	text-align: center;
+	font-size: 30px;
+}
+
+.rainfall{
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.pictures{
+	margin-bottom: 15px;
+}
+
+
+
+/*end of map*/
+
+
+.article{
+	color: white;
+	width: 100%;
+	margin-bottom: 30px;
+	align-items: center;
+	align-content: center;
+
+}
+
+
+/*end of buttons*/
+
+
+
+@media screen and (min-width: 1200px){
+
+	.title{
+		font-size: 50px;
+		margin-bottom: 30px;
+	}
+
+    .article{
+        font-size: 30px;
+    }
+
+    a{
+    	font-size: 40px;
+    }
+
+}
+
+
+@media screen and (max-width: 1200px) and (min-width: 700px){
+
+
+    .article{
+        font-size: 20px;
+    }
+
+    .wrap{
+    	margin-left: 15%;
+		width: 70%;
+
+    }
+
+}
+
+@media screen and (max-width: 700px) {
+    .article{
+    	font-size: 15px;
+    }
+
+    .wrap{
+    	margin-left: 10%;
+		width: 80%;
+
+}
+/*end of size  variables*/
+
